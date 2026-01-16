@@ -1,6 +1,6 @@
 # Hussam Kh
 
-AI Engineer | Senior Backend / Full-Stack Engineer | LLM, RAG & Agentic Systems
+AI Engineer | LLM, RAG & Agentic Systems
 
 ---
 
@@ -11,16 +11,6 @@ I am an AI Engineer with a strong backend and full-stack engineering background,
 I have hands-on experience designing and deploying AI systems on **Google Cloud Platform**, working across the full lifecycle: from data ingestion and document intelligence, to model integration, backend APIs, and cloud deployment.
 
 I enjoy solving complex problems where **AI meets system design**, and I care deeply about maintainability, observability, and long-term evolution of software systems.
-
----
-
-# Hussam Kh
-
-AI Engineer | Senior Backend / Full-Stack Engineer | LLM, RAG & Agentic Systems
-
----
-
-## 🏗 Selected Projects
 
 ---
 
@@ -71,14 +61,41 @@ Owned the end‑to‑end design and implementation of the AI assistant, with pri
 
 ---
 
-### 📸 **Gallery / Showcase**
+### 📸 **System Showcase & User Journey**
 
-*(Optional section for screenshots)*
+#### **1. Discovery & Entry**
 
-* Professional disclaimer and compliance notice
-* Country selection & discovery screen
-* Chat interface with jurisdiction‑aware responses
-* Structured VAT breakdowns demonstrating grounded RAG outputs
+The AI assistant is embedded within the broader **Deloitte ME Tax Pulse** ecosystem. Users first land on a centralized dashboard featuring real-time tax alerts and regional news. From there, they enter the AI Assistant, where an explicit **GCC jurisdiction selection** is required to ensure regulatory precision and legally grounded responses.
+
+<p align="center">
+<img src="dashboard.png" width="45%" alt="Deloitte Tax Pulse Dashboard" />
+<img src="ai-entry.png" width="45%" alt="AI Assistant Entry" />
+</p>
+<p align="center"><em>Main dashboard with localized tax alerts (left) and the AI Assistant’s jurisdiction-aware entry point (right).</em></p>
+
+---
+
+#### **2. Contextual Querying & Grounded Retrieval**
+
+Once a jurisdiction is selected (e.g., KSA), the assistant initializes with **region-specific legal grounding**. Users can issue high-level queries such as “VAT rates,” which are resolved through the RAG pipeline and returned as **structured, citation-backed responses**.
+
+<p align="center">
+<img src="vat-query.jpg" width="45%" alt="VAT Query Result" />
+<img src="tax-applicability.jpg" width="45%" alt="Corporate Tax Applicability Logic" />
+</p>
+<p align="center"><em>Structured VAT rate breakdowns (left) and RAG-based reasoning for corporate tax applicability to non-residents (right).</em></p>
+
+---
+
+#### **3. Advanced Legal & Financial Reasoning (Zakat vs. Corporate Tax)**
+
+A core complexity of the GCC tax landscape is the distinction between **Vat** and **Corporate Income Tax (CT)**. These examples demonstrate the LLM’s ability to perform **multi-factor legal reasoning**, explaining how tax obligations change based on **ownership structure, entity type, and religious versus statutory tax frameworks**.
+
+<p align="center">
+<img src="tax-comparison-1.png" width="45%" alt="Tax Comparison" />
+<img src="tax-comparison-2.png" width="45%" alt="Ownership Structure Logic" />
+</p>
+<p align="center"><em>High-level comparative reasoning highlighting differences in nature of levy and ownership-based tax treatment between Vat and Corporate Income Tax.</em></p>
 
 ---
 
