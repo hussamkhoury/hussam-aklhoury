@@ -68,8 +68,8 @@ Owned the end‑to‑end design and implementation of the AI assistant, with pri
 The AI assistant is embedded within the broader **Deloitte ME Tax Pulse** ecosystem. Users first land on a centralized dashboard featuring real-time tax alerts and regional news. From there, they enter the AI Assistant, where an explicit **GCC jurisdiction selection** is required to ensure regulatory precision and legally grounded responses.
 
 <p align="center">
-<img src="dashboard.png" width="45%" alt="Deloitte Tax Pulse Dashboard" />
-<img src="ai-entry.png" width="45%" alt="AI Assistant Entry" />
+<img src="dashboard.jpg" width="45%" alt="Deloitte Tax Pulse Dashboard" />
+<img src="ai-entry.jpg" width="45%" alt="AI Assistant Entry" />
 </p>
 <p align="center"><em>Main dashboard with localized tax alerts (left) and the AI Assistant’s jurisdiction-aware entry point (right).</em></p>
 
