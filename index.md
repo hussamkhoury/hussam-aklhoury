@@ -14,66 +14,117 @@ I enjoy solving complex problems where **AI meets system design**, and I care de
 
 ---
 
-This is an impressive project, especially given the complexity of tax regulations and the "Big Four" professional standards required by Deloitte.
+# Hussam Kh
 
-To showcase this on your **GitHub.io** profile, you should structure it to highlight both the **business impact** and your **technical architectural decisions**.
-
-Here is a professionally drafted section you can use. I’ve categorized it so recruiters can quickly see your skills in Data Engineering, AI Orchestration, and Backend Development.
+AI Engineer | Senior Backend / Full-Stack Engineer | LLM, RAG & Agentic Systems
 
 ---
 
-# Project: Deloitte ME Tax Pulse – AI Tax Assistant
+## 🏗 Selected Projects
+
+---
+
+## 🏛 Deloitte ME Tax Pulse – AI Tax Assistant
 
 ### **Overview**
-Developed the core AI-Powered Tax Assistant for **Deloitte Middle East**, designed to simplify complex tax regulations, ensure compliance, and optimize tax strategies across the GCC (Gulf Cooperation Council) region. The system serves as a sophisticated interface for users to query massive repositories of tax law, bulletins, and real-time updates.
+
+Developed the core **AI‑Powered Tax Assistant** for **Deloitte Middle East**, designed to simplify highly complex tax regulations, ensure compliance, and support optimized tax strategies across the GCC (Gulf Cooperation Council) region. The system enables professionals to query and reason over large, continuously evolving repositories of tax laws, regulatory bulletins, and market updates.
 
 ### **My Role: Lead AI Engineer / Backend Developer**
-I was responsible for the end-to-end development of the AI assistant, focusing on high-accuracy data ingestion, RAG pipeline architecture, and a hybrid agentic workflow.
+
+Owned the end‑to‑end design and implementation of the AI assistant, with primary responsibility for **data ingestion pipelines**, **RAG architecture**, and a **hybrid agentic workflow** optimized for enterprise reliability and accuracy.
 
 ---
 
-### **🚀 Key Technical Contributions**
+### 🚀 **Key Technical Contributions**
 
-#### **1. Multi-Modal Data Ingestion Pipeline**
-*   **Large-Scale Ingestion:** Engineered a robust pipeline to process and vectorize massive amounts of heterogeneous data, including **Word docs, PDFs, and complex Excel spreadsheets**.
-*   **Real-time Data:** Integrated web-scraping via APIs to ensure the assistant remains updated with the latest tax alerts and market changes.
+#### **1. Multi‑Modal Data Ingestion Pipeline**
+
+* **Large‑Scale Ingestion:** Engineered a robust ingestion and vectorization pipeline capable of processing heterogeneous data sources, including **Word documents, PDFs, and complex Excel spreadsheets**.
+* **Real‑Time Updates:** Integrated API‑based web scraping to continuously ingest tax alerts, regulatory changes, and market updates, ensuring the assistant remained current.
 
 #### **2. Hybrid Workflow & Agentic Architecture**
-*   **System Design:** Implemented a **Hybrid Workflow/Agentic System**. While the general conversation follows a structured flow for reliability, I integrated **LLM-based routing nodes** where the model autonomously decides the best path/tool to take based on user intent.
-*   **Dynamic Context Switching:** Built a multi-country context engine. The assistant tracks the selected GCC country (KSA, UAE, Qatar, etc.) and can **autonomously offer to switch contexts** if it detects the user is asking about a different jurisdiction mid-conversation.
+
+* **System Design:** Implemented a **hybrid workflow / agentic architecture**. Core conversational flows follow deterministic paths for reliability, while **LLM‑based routing nodes** dynamically select tools or reasoning paths based on user intent.
+* **Dynamic Context Switching:** Built a multi‑country context engine that tracks the active GCC jurisdiction (KSA, UAE, Qatar, etc.) and can **autonomously suggest context switches** when cross‑country tax questions are detected mid‑conversation.
 
 #### **3. Advanced RAG Pipeline**
-*   **Orchestration:** Leveraged **Gemini Models** (Google Cloud) for advanced reasoning and response generation.
-*   **Vector Search:** Utilized **MongoDB Atlas Vector Search** for semantic retrieval, ensuring that the most relevant tax clauses are fetched to ground the LLM’s responses, minimizing hallucinations.
-*   **Tools Integration:** Integrated a **Web Search tool** to supplement the internal knowledge base when users ask about breaking news or external economic events.
+
+* **LLM Orchestration:** Leveraged **Google Gemini models** for advanced reasoning, synthesis, and response generation.
+* **Vector Search:** Implemented semantic retrieval using **MongoDB Atlas Vector Search**, grounding responses in the most relevant tax clauses and significantly reducing hallucinations.
+* **Tool Augmentation:** Integrated a **web search tool** to complement the internal knowledge base when handling breaking news or external economic events.
 
 #### **4. Backend & Infrastructure**
-*   **Performance:** Developed the core service using **FastAPI**, ensuring low-latency responses for the chat interface.
-*   **Cloud:** Deployed and managed within the **Google Cloud Platform (GCP)** ecosystem, adhering to enterprise-level security and scalability standards.
+
+* **Performance & Reliability:** Built the core service with **FastAPI**, delivering low‑latency, high‑throughput conversational interactions.
+* **Cloud Deployment:** Deployed and managed the system on **Google Cloud Platform (GCP)**, aligning with enterprise‑grade security, scalability, and compliance requirements.
 
 ---
 
-### **🛠️ Tech Stack**
-*   **LLMs:** Google Gemini
-*   **Frameworks:** FastAPI, LangGraph (or specialized workflow logic), Pydantic
-*   **Database:** MongoDB (Atlas Vector Search)
-*   **Cloud:** Google Cloud Platform (GCP)
-*   **Data Processing:** Python (Pandas for Excel, PyMuPDF for PDF parsing)
+### 🛠️ **Tech Stack**
+
+* **LLMs:** Google Gemini
+* **Frameworks:** FastAPI, LangGraph (or custom workflow logic), Pydantic
+* **Database:** MongoDB (Atlas Vector Search)
+* **Cloud:** Google Cloud Platform (GCP)
+* **Data Processing:** Python (Pandas for Excel, PyMuPDF for PDF parsing)
 
 ---
 
-### **📸 Gallery / Showcase**
-*(Note to you: This is where you will insert the screenshots you provided. I recommend arranging them in this order:)*
-1.  **The Disclaimer:** Shows the professional/legal nature of the project.
-2.  **Home Screen:** Shows the country selection and "Discover tax insights" UI.
-3.  **Chat Initial State:** Shows the "Select Country" starting point.
-4.  **The Assistant in Action:** Use the screenshots showing the VAT rates breakdown for KSA to demonstrate how the RAG pipeline formats complex data into readable bullet points.
+### 📸 **Gallery / Showcase**
+
+*(Optional section for screenshots)*
+
+* Professional disclaimer and compliance notice
+* Country selection & discovery screen
+* Chat interface with jurisdiction‑aware responses
+* Structured VAT breakdowns demonstrating grounded RAG outputs
 
 ---
 
-### **How to add this to your GitHub.io:**
-1.  **README.md:** If you have a specific repository for this (even if the code is private, you can make a "Project Documentation" repo), paste the text above there.
-2.  **Portfolio Page:** If you are using a template (like Jekyll or Hugo), create a new project entry and use the headers above.
-3.  **Keywords:** Ensure you use tags like **#GenerativeAI**, **#RAG**, **#AgenticAI**, and **#EnterpriseAI**.
+## 💰 LUNA – AI Financial Coach (MALY)
 
-**Would you like me to refine the "Hybrid Workflow" part to be more technical? (e.g., explaining how you handled state management or specific prompt engineering techniques?)**
+### **Overview**
+
+LUNA is a hyper‑personalized **AI financial coach** integrated into **MALY**, a financial wellness platform. Unlike traditional chatbots, LUNA operates as a behavioral coach, combining real‑time financial data with behavioral finance principles to guide users toward healthier spending and saving habits.
+
+### **My Role: AI Product Engineer & Systems Architect**
+
+Led the development of LUNA’s intelligence layer, focusing on the intersection of **Open Banking data**, **behavioral finance**, and **AI‑driven recommendations**, while also building the administrative infrastructure required to manage the AI’s knowledge base at scale.
+
+---
+
+### 🚀 **Key Technical Contributions**
+
+#### **1. Data‑Driven Behavioral Coaching**
+
+* **Open Banking Integration:** Leveraged Open Banking APIs to ingest and analyze live transactional data, enabling coaching based on **actual user behavior** rather than self‑reported inputs.
+* **Contextual Intelligence:** Combined user profiles with financial statistics from the data warehouse to derive financial‑health indicators and generate actionable, personalized coaching insights.
+
+#### **2. Intelligent Recommendation Orchestration**
+
+* **Dynamic Decisioning:** Designed logic to determine both the **timing** and **type** of recommendations, deciding whether to nudge users toward MALY products (e.g., savings goals) or relevant third‑party financial services.
+* **Hybrid Recommendation System:** Acted as the integration layer between data‑science‑driven recommendation models and the conversational AI, transforming data‑driven outputs into empathetic, coaching‑oriented dialogue.
+
+#### **3. Knowledge & Admin Infrastructure**
+
+* **Internal Admin Web Application:** Designed and built a standalone admin portal enabling non‑technical staff to manage LUNA’s static knowledge base, including product features, financial guidelines, and platform announcements.
+* **Dual‑Data Architecture:** Managed a system balancing **dynamic data** (real‑time transactions from the data warehouse) with **static data** (platform content from the admin portal) to maintain accuracy and relevance.
+
+---
+
+### 🛠️ **Tech Stack**
+
+* **AI / LLM:** GPT‑4, custom LLM orchestration
+* **Fintech:** Open Banking APIs, transactional data analysis
+* **Backend:** FastAPI, Python
+* **Frontend (Admin):** React.js
+* **Data:** Data Warehouse (e.g., BigQuery / Snowflake / Redshift), SQL, MongoDB
+* **Architecture:** Event‑driven recommendations, behavioral nudging logic
+
+---
+
+### 💡 **Professional Impact**
+
+* **Personalization:** Shifted the platform from generic alerts to **personalized financial coaching**, significantly increasing engagement with MALY’s financial products.
+* **Operational Efficiency:** Reduced engineering overhead for content updates by approximately **80%** through the introduction of the Admin Management Portal.
