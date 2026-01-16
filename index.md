@@ -92,8 +92,8 @@ Once a jurisdiction is selected (e.g., KSA), the assistant initializes with **re
 A core complexity of the GCC tax landscape is the distinction between **Vat** and **Corporate Income Tax (CT)**. These examples demonstrate the LLM’s ability to perform **multi-factor legal reasoning**, explaining how tax obligations change based on **ownership structure, entity type, and religious versus statutory tax frameworks**.
 
 <p align="center">
-<img src="tax-comparison-1.png" width="45%" alt="Tax Comparison" />
-<img src="tax-comparison-2.png" width="45%" alt="Ownership Structure Logic" />
+<img src="tax-comparison-1.jpg" width="45%" alt="Tax Comparison" />
+<img src="tax-comparison-2.jpg" width="45%" alt="Ownership Structure Logic" />
 </p>
 <p align="center"><em>High-level comparative reasoning highlighting differences in nature of levy and ownership-based tax treatment between Vat and Corporate Income Tax.</em></p>
 
